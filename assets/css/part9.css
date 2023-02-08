@@ -2818,8 +2818,11 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   border-radius: 30px;
-  box-shadow: 0 10px 30px rgba(118, 93, 234, 0.502);
+  box-shadow: 0 10px 30px rgba(18, 83, 252, 0.502);
   color: #fff;
+}
+.contact-form .form-group input[type="submit"]:hover{
+  box-shadow: 0 10px 30px rgba(118, 93, 234, 0.502);
 }
 .contact-form .form-group button {
   border: none;

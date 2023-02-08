@@ -2973,21 +2973,20 @@
 .widget-follow ul li {
   padding: 5px;
 }
+.widget-follow ul li a.active,
 .widget-follow ul li a {
   width: 40px;
   height: 40px;
   line-height: 40px;
-  border-color: #bccaea;
-  color: rgba(189, 185, 240, 0.8);
-}
-.widget-follow ul li a.active,
-.widget-follow ul li a:hover {
   border: none;
   color: #fff;
   background: -moz-linear-gradient(-30deg, #c165dd 0, #5c27fe 100%);
   background: -webkit-linear-gradient(-30deg, #c165dd 0, #5c27fe 100%);
   background: -ms-linear-gradient(-30deg, #c165dd 0, #5c27fe 100%);
   box-shadow: 0 3px 7px 0 rgba(0, 0, 0, 0.35);
+}
+.widget-follow ul li a:hover {
+  box-shadow: 0 10px 30px rgba(118, 93, 234, 0.502);
 }
 .widget-search .search-form {
   margin-top: -20px;
