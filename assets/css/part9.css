@@ -2808,8 +2808,9 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
   background: -moz-linear-gradient(-65deg, #c165dd 0, #1153fc 100%);
   background: -ms-linear-gradient(-65deg, #c165dd 0, #1153fc 100%);
   background: -webkit-linear-gradient(-65deg, #c165dd 0, #1153fc 100%);
+  text-align: center;
+  padding: 0 35px;
   width: auto;
-  padding: 0 50px;
   text-transform: uppercase;
   font-weight: 600;
   margin: 0 auto;
@@ -2951,6 +2952,7 @@ div[class*="col"]:nth-child(even) .team-item:hover .team-thumb::before {
 }
 .contact-item .contact-contact a {
   color: #bdb9f0;
+  word-break: break-all;
 }
 .contact-item .contact-contact p {
   margin: 0;
