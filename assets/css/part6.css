@@ -2973,7 +2973,8 @@ input[type="submit"] {
 }
 .section-header .cate {
   margin-bottom: 38px;
-  color: #ff8a00;
+  /* color: #ff8a00; */
+  color: #9bdd21;
 }
 @media (max-width: 767px) {
   .section-header .cate {

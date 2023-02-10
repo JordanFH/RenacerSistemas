@@ -252,7 +252,7 @@
   align-items: center;
 }
 .header-section .header-wrapper .logo {
-  width: 80px;
+  width: 65px;
 }
 .header-section .header-wrapper .logo a {
   display: block;
@@ -799,6 +799,10 @@
     font-size: 30px;
     width: 120px;
     margin-top: 30px;
+  }
+
+  .header-section .header-wrapper .logo {
+    width: 45px;
   }
 }
 @media screen and (max-width: 499px) {
@@ -3226,8 +3230,9 @@
   line-height: 65px;
   font-size: 24px;
   font-weight: 600;
-  color: #ee4730;
-  border: 1px solid rgba(238, 71, 48, 0.2);
+  /* color: #ee4730; */
+  color: #9bdd21;
+  border: 1px solid rgba(155, 221, 33, 0.2);
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;

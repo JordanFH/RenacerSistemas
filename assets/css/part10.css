@@ -840,7 +840,8 @@
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  background: #ff8a00;
+  /* background: #ff8a00; */
+  background: #9bdd21;
   position: relative;
   color: #fff;
   margin: 0 auto;
@@ -858,7 +859,8 @@
   transition: all ease 0.3s;
 }
 .video-button::before {
-  background: rgba(255, 138, 0, 0.161);
+  /* background: rgba(255, 138, 0, 0.161); */
+  background: rgba(155, 221, 33, 0.161);
   width: 100px;
   height: 100px;
   animation-delay: 0.5s;
@@ -869,7 +871,8 @@
   border-radius: 33.33% 50%;
 }
 .video-button::after {
-  background: rgba(255, 138, 0, 0.302);
+  /* background: rgba(255, 138, 0, 0.302); */
+  background: rgba(155, 221, 33, 0.302);
   height: 73px;
   width: 73px;
 }
