@@ -29,40 +29,22 @@
       s.addClass("wcs-effect-" + o.popupFx);
       t = m('<div class="wcs_debug"></div>');
 
-      $(document).on("click", ".whatsapp-click", function (event) {
-        o.onPopupOpen(),
-          m(".whatsapp_chat_support").each(function () {
-            var t = m(this);
-            t.removeClass("wcs-show"),
-              t.find(".wcs_popup_input").find('input[type="text"]').val("");
-          }),
-          i.addClass("wcs_button_label_hide"),
-          s.addClass("wcs-show"),
-          setTimeout(function () {
-            e.find("input").val(o.defaultMsg).focus();
-          }, 50);
-      });
-
       $(document).scroll(function () {
         o.onPopupClose(),
-          i.removeClass("wcs_button_label_hide"),
           s.removeClass("wcs-show"),
           s.find(".wcs_popup_input").find('input[type="text"]').val("");
       });
 
-      /*
-      $(".whatsapp_chat_support").hover(function () {
+      $(".wcs_button_circle").hover(
+        function () {
           // over
-          i.removeClass("wcs_button_label_hide");
-          i.addClass("wcs_button_label");
-
-        }, function () {
+          i.addClass("wcs_button_label_show");
+        },
+        function () {
           // out
-          i.removeClass("wcs_button_label");
-          i.addClass("wcs_button_label_hide");
+          i.removeClass("wcs_button_label_show");
         }
       );
-      */
 
       $(".whatsapp_chat_support").click(function (e) {
         e.stopPropagation();
@@ -70,7 +52,6 @@
 
       $(document).click(function (e) {
         o.onPopupClose(),
-          i.removeClass("wcs_button_label_hide"),
           s.removeClass("wcs-show"),
           s.find(".wcs_popup_input").find('input[type="text"]').val("");
       });
@@ -82,7 +63,6 @@
             t.removeClass("wcs-show"),
               t.find(".wcs_popup_input").find('input[type="text"]').val("");
           }),
-          i.addClass("wcs_button_label_hide"),
           s.addClass("wcs-show"),
           setTimeout(function () {
             e.find("input").val(o.defaultMsg).focus();
@@ -90,7 +70,6 @@
       }
       function r() {
         o.onPopupClose(),
-          i.removeClass("wcs_button_label_hide"),
           s.removeClass("wcs-show"),
           s.find(".wcs_popup_input").find('input[type="text"]').val("");
       }
@@ -247,10 +226,5 @@
     } else {
       whatsapp.addClass("active");
     }
-  });
-
-  $(document).on("click", ".whatsapp-click", function (event) {
-    event.preventDefault();
-    whatsapp.click();
   });
 })(window, jQuery);

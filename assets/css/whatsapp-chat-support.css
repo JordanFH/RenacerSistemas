@@ -98,14 +98,16 @@
   -webkit-transition: 0.3s ease all;
   -moz-transition: 0.3s ease all;
   transition: 0.3s ease all;
-}
-.wcs_button_label_hide {
-  -webkit-transform: translate(10px, 0);
-  -moz-transform: translate(10px, 0);
-  -ms-transform: translate(10px, 0);
-  transform: translate(10px, 0);
   opacity: 0;
   visibility: hidden;
+}
+.wcs_button_label_show {
+  -webkit-transform: translate(-10px, 0);
+  -moz-transform: translate(-10px, 0);
+  -ms-transform: translate(-10px, 0);
+  transform: translate(-10px, 0);
+  opacity: 1;
+  visibility: visible;
 }
 
 .wcs_fixed_right {
@@ -309,7 +311,7 @@
 .wcs_popup_header_description {
   display: block;
   margin-top: 10px;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 /* ====================================================================== *

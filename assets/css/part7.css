@@ -2984,8 +2984,9 @@
 }
 .widget-follow ul li a.active,
 .widget-follow ul li a {
-  width: 40px;
+  width: 200px;
   height: 40px;
+  border-radius: 20px;
   line-height: 40px;
   border: none;
   color: #fff;
@@ -2996,6 +2997,10 @@
 }
 .widget-follow ul li a:hover {
   box-shadow: 0 10px 30px rgba(118, 93, 234, 0.502);
+}
+.widget-follow ul li a i,
+.widget-follow ul li a span{
+  margin: 0 10px;
 }
 .widget-search .search-form {
   margin-top: -20px;
