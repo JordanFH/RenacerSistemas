@@ -9,6 +9,7 @@
     <title>Renacer Sistemas - Universidad Nacional de Cajamarca</title>
 
     <link rel="stylesheet" href="assets/css/minified.css" />
+    <link rel="stylesheet" href="assets/css/whatsapp-chat-support.css" />
 
     <link
       rel="shortcut icon"
@@ -30,6 +31,69 @@
     <a href="#" class="scrollToTop"><i class="fas fa-angle-up"></i></a>
     <div class="overlay"></div>
     <!--============= ScrollToTop Section Ends Here =============-->
+
+    <!--============= whatsapp-chat-support Starts Here =============-->
+    <div class="whatsapp_chat_support wcs_fixed_right" id="example_1">
+      <div class="wcs_button wcs_button_circle">
+        <i class="fab fa-whatsapp"></i>
+      </div>
+
+      <div class="wcs_popup">
+        <div class="wcs_popup_close">
+          <span class="fab fa-close"></span>
+        </div>
+        <div class="wcs_popup_content">
+          <div class="wcs_popup_header">
+            <strong>Chatea con nosotros</strong>
+            <br />
+            <div class="wcs_popup_header_description d-none d-lg-block">
+              Haz click en uno de nuestros compañeros
+            </div>
+          </div>
+          <div class="wcs_popup_person_container">
+            <div
+              class="wcs_popup_person"
+              data-number="51926085863"
+              data-default-msg="Hi, I have some questions about sales, can you please help me?"
+            >
+              <div class="wcs_popup_person_img">
+                <img src="assets/images/team/team1.png" alt="" />
+              </div>
+              <div class="wcs_popup_person_content">
+                <div class="wcs_popup_person_name">Mia Smith</div>
+              </div>
+            </div>
+
+            <div
+              class="wcs_popup_person"
+              data-number="51926085863"
+              data-default-msg="Hi, I have some questions about sales, can you please help me?"
+            >
+              <div class="wcs_popup_person_img">
+                <img src="assets/images/team/team2.png" alt="" />
+              </div>
+              <div class="wcs_popup_person_content">
+                <div class="wcs_popup_person_name">Mia Smith</div>
+              </div>
+            </div>
+
+            <div
+              class="wcs_popup_person"
+              data-number="51926085863"
+              data-default-msg="Hi, I have some questions about sales, can you please help me?"
+            >
+              <div class="wcs_popup_person_img">
+                <img src="assets/images/team/team3.png" alt="" />
+              </div>
+              <div class="wcs_popup_person_content">
+                <div class="wcs_popup_person_name">Mia Smith</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--============= whatsapp-chat-support Ends Here =============-->
 
     <!--============= Header Section Starts Here =============-->
     <header class="header-section">
@@ -86,7 +150,7 @@
           <h1 class="title">Movimiento Renacer Sistemas</h1>
           <br />
           <h3>
-            <b style="color: #9bdd21;">"Protagonistas del cambio"</b>
+            <b style="color: #9bdd21">"Protagonistas del cambio"</b>
             <!-- Agregar tipying effect -->
           </h3>
           <br />
@@ -784,5 +848,9 @@
     <script src="assets/js/minified.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/new.js"></script>
+    <script src="assets/js/whatsapp-chat-support.js"></script>
+    <script>
+      $("#example_1").whatsappChatSupport();
+    </script>
   </body>
 </html>
