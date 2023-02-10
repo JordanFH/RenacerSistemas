@@ -33,7 +33,8 @@
     <!--============= ScrollToTop Section Ends Here =============-->
 
     <!--============= whatsapp-chat-support Starts Here =============-->
-    <div class="whatsapp_chat_support wcs_fixed_right" id="example_1">
+    <div class="whatsapp_chat_support wcs_fixed_right d-flex" id="whatsapp">
+      <div class="wcs_button_label">Chatea con nosotros</div>
       <div class="wcs_button wcs_button_circle">
         <i class="fab fa-whatsapp"></i>
       </div>
@@ -821,13 +822,8 @@
                       <i class="fab fa-youtube"></i>
                     </a>
                   </li>
-                  <li>
-                    <a
-                      href="https://wa.me/5211234567890?text=Me%20gustaría%20saber%20el%20precio%20del%20coche"
-                      target="_blank"
-                    >
-                      <i class="fab fa-whatsapp"></i
-                    ></a>
+                  <li class="whatsapp-click">
+                    <a href="#0"> <i class="fab fa-whatsapp"></i></a>
                   </li>
                 </ul>
               </div>
@@ -850,7 +846,7 @@
     <script src="assets/js/new.js"></script>
     <script src="assets/js/whatsapp-chat-support.js"></script>
     <script>
-      $("#example_1").whatsappChatSupport();
+      $("#whatsapp").whatsappChatSupport();
     </script>
   </body>
 </html>
