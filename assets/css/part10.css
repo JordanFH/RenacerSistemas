@@ -1095,6 +1095,7 @@
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
+  font-weight: bold;
   background: -moz-linear-gradient(0deg, #e2906e 0, #e83a99 100%);
   background: -webkit-linear-gradient(0deg, #e2906e 0, #e83a99 100%);
   background: -ms-linear-gradient(0deg, #e2906e 0, #e83a99 100%);
@@ -1103,9 +1104,11 @@
   padding: 10px 45px;
   color: #fff;
   margin-top: 20px;
+  transition: box-shadow 0.2s ease-in-out;
 }
 .button-5:hover {
   color: #fff;
+  box-shadow: 2.419px 9.703px 12.48px 0.52px rgba(226, 144, 110, 0.5);
 }
 .preloader {
   position: fixed;
